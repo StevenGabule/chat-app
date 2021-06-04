@@ -1,13 +1,14 @@
 const config = require('./config/app');
 const express = require('express');
 const app =express();
+const cors = require('cors')
 
-const homeRouter = require('./router/index');
-
+app.use(cors());
 app.use(express.urlencoded({ extended: true}))
 app.use(express.json())
-app.use(homeRouter);
 
+const homeRouter = require('./router/index');
+app.use(homeRouter);
 
 const port = config.appPort;
 

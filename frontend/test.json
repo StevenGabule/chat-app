@@ -1,0 +1,11 @@
+{
+  "id": 9,
+  "firstName": "asdsad",
+  "lastName": "Wick",
+  "email": "wickss11@gmail.com",
+  "gender": "male",
+  "avatar": null,
+  "createdAt": "2021-06-03T23:14:57.364Z",
+  "updatedAt": "2021-06-03T23:14:57.364Z",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZmlyc3ROYW1lIjoiYXNkc2FkIiwibGFzdE5hbWUiOiJXaWNrIiwiZW1haWwiOiJ3aWNrc3MxMUBnbWFpbC5jb20iLCJnZW5kZXIiOiJtYWxlIiwiYXZhdGFyIjpudWxsLCJjcmVhdGVkQXQiOiIyMDIxLTA2LTAzVDIzOjE0OjU3LjM2NFoiLCJ1cGRhdGVkQXQiOiIyMDIxLTA2LTAzVDIzOjE0OjU3LjM2NFoiLCJpYXQiOjE2MjI3NjgzMTAsImV4cCI6MTYyMjg1NDcxMH0.uEK8LQXBuE2hLEXRzskV3zySfR-9HkEQCwRyj_FP9oY"
+}

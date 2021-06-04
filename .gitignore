@@ -1,0 +1,8 @@
+.idea/.gitignore
+.idea/chat-app.iml
+.idea/dbnavigator.xml
+.idea/dictionaries/
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+backend/node_modules/
