@@ -3,12 +3,15 @@ const express = require('express');
 const app =express();
 const cors = require('cors')
 
-app.use(cors());
 app.use(express.urlencoded({ extended: true}))
 app.use(express.json())
+app.use(cors());
 
 const homeRouter = require('./router/index');
 app.use(homeRouter);
+
+app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/uploads'))
 
 const port = config.appPort;
 
