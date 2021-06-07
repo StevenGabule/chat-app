@@ -26,7 +26,6 @@ export const register = (params, history) => dispatch => {
 export const logout = () => dispatch => {
     AuthService.logout()
     dispatch({type: LOGOUT})
-    // window.location.href = '/login';
 }
 
 
